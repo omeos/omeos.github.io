@@ -1,0 +1,9 @@
+# https://jekyllrb.com/docs/configuration/
+
+exclude: ["Gemfile", "Gemfile.lock", "CNAME", ".nojekyll", ".git**"]
+
+# Every file or directory beginning with the following characters: . , _ , # or ~ in the source directory will not be included in the destination folder.
+# Such paths will have to be explicitly specified via the config file in the include directive to make sure they’re copied over.
+# 使用 GitHub Pages Actions 不能指定为 ".**" 会导致构建错误
+# include: [".**", "_**", "#**", "**~"]
+include: [".well-known"]
