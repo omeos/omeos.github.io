@@ -1,0 +1,5 @@
+# https://jekyllrb.com/docs/configuration/
+
+exclude: ["CNAME"]
+include: [".well-known"]
+# include: [".**", "_**", "#**", "**~"]
